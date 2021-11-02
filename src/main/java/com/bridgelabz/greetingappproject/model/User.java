@@ -16,4 +16,8 @@ public class User {
 	public void getLastName(String lastName) {
 		this.lastName = lastName;
 	}
+	@Override 
+	public String toString() {
+		return "User{"+"firstName='"+firstName+'\''+ ",lastName='"+lastName+'\''+'}';
+	}
 }
